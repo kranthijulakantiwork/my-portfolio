@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { useState } from "react";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
@@ -71,16 +71,23 @@ const experiences = [
     ],
     tags: ["React Native", "Redux", "iOS", "Android"],
   },
-]
+];
 
 export function Experience() {
-  const [selectedIndex, setSelectedIndex] = useState(0)
-  const selectedExp = experiences[selectedIndex]
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const selectedExp = experiences[selectedIndex];
 
   return (
-    <section id="experience" className="py-24 px-4 sm:px-6 lg:px-8" aria-labelledby="experience-heading">
+    <section
+      id="experience"
+      className="py-24 px-4 sm:px-6 lg:px-8"
+      aria-labelledby="experience-heading"
+    >
       <div className="container mx-auto max-w-6xl">
-        <h2 id="experience-heading" className="text-3xl sm:text-4xl font-bold mb-12 text-balance text-center">
+        <h2
+          id="experience-heading"
+          className="text-3xl sm:text-4xl font-bold mb-12 text-balance text-center"
+        >
           My journey as a developer
         </h2>
 
@@ -111,7 +118,9 @@ export function Experience() {
               >
                 <div className="flex flex-col gap-1">
                   <span className="font-semibold">{exp.company}</span>
-                  <span className="text-xs font-mono opacity-75">{exp.period.split(" - ")[0]}</span>
+                  <span className="text-xs font-mono text-muted-foreground">
+                    {exp.period.split(" - ")[0]}
+                  </span>
                 </div>
               </button>
             ))}
@@ -128,22 +137,38 @@ export function Experience() {
               <div className="space-y-4">
                 <div className="flex flex-col gap-2">
                   <div>
-                    <h3 className="text-2xl font-bold text-foreground">{selectedExp.title}</h3>
-                    <p className="text-xl text-primary">{selectedExp.company}</p>
+                    <h3 className="text-2xl font-bold text-foreground">
+                      {selectedExp.title}
+                    </h3>
+                    <p className="text-xl text-primary">
+                      {selectedExp.company}
+                    </p>
                   </div>
-                  <time className="text-sm text-muted-foreground font-mono">{selectedExp.period}</time>
+                  <time className="text-sm text-muted-foreground font-mono">
+                    {selectedExp.period}
+                  </time>
                 </div>
                 <ul className="space-y-3 text-muted-foreground">
                   {selectedExp.description.map((item, i) => (
-                    <li key={i} className="flex items-start gap-2 leading-relaxed">
-                      <span className="text-primary mt-2 flex-shrink-0" aria-hidden="true">
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 leading-relaxed"
+                    >
+                      <span
+                        className="text-primary mt-2 flex-shrink-0"
+                        aria-hidden="true"
+                      >
                         •
                       </span>
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-wrap gap-2 pt-2" role="list" aria-label="Technologies used">
+                <div
+                  className="flex flex-wrap gap-2 pt-2"
+                  role="list"
+                  aria-label="Technologies used"
+                >
                   {selectedExp.tags.map((tag) => (
                     <Badge key={tag} variant="secondary" role="listitem">
                       {tag}
@@ -156,5 +181,5 @@ export function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
