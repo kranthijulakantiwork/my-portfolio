@@ -40,46 +40,53 @@ export function Hero() {
               </Button>
             </div>
 
-            <div
-              className="flex gap-4 pt-4"
-              role="list"
+            <ul
+              className="flex gap-4 pt-4 list-none"
               aria-label="Social media links"
             >
-              <a
-                href={`mailto:${CONTACT_INFO.email}`}
-                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
-                aria-label="Email Kranthi Kumar"
-              >
-                <Mail className="h-5 w-5" aria-hidden="true" />
-              </a>
-              <a
-                href={CONTACT_INFO.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
-                aria-label="LinkedIn profile (opens in new tab)"
-              >
-                <Linkedin className="h-5 w-5" aria-hidden="true" />
-              </a>
-              <a
-                href={CONTACT_INFO.stackoverflow}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
-                aria-label="StackOverflow profile (opens in new tab)"
-              >
-                <StackOverflowIcon className="h-5 w-5" />
-              </a>
-              <a
-                href={CONTACT_INFO.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
-                aria-label="GitHub profile (opens in new tab)"
-              >
-                <Github className="h-5 w-5" aria-hidden="true" />
-              </a>
-            </div>
+              <li>
+                <a
+                  href={`mailto:${CONTACT_INFO.email}`}
+                  className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
+                  aria-label="Email Kranthi Kumar"
+                >
+                  <Mail className="h-5 w-5" aria-hidden="true" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={CONTACT_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
+                  aria-label="LinkedIn profile (opens in new tab)"
+                >
+                  <Linkedin className="h-5 w-5" aria-hidden="true" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={CONTACT_INFO.stackoverflow}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
+                  aria-label="StackOverflow profile (opens in new tab)"
+                >
+                  <StackOverflowIcon className="h-5 w-5" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={CONTACT_INFO.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none rounded"
+                  aria-label="GitHub profile (opens in new tab)"
+                >
+                  <Github className="h-5 w-5" aria-hidden="true" />
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="hidden lg:block">
