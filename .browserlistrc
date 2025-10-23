@@ -1,6 +1,7 @@
-# Modern browsers only - no legacy polyfills needed
-> 0.5%
-last 2 versions
-not dead
-not IE 11
-not op_mini all
+# Target browsers that natively support ES2022 features
+# This eliminates polyfills for Array.prototype.at, Object.hasOwn, etc.
+chrome >= 93
+edge >= 93
+firefox >= 92
+safari >= 15.4
+opera >= 79

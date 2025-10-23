@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "browserslist": [
-    "> 0.5%",
-    "last 2 versions",
-    "not dead",
-    "not IE 11",
-    "not op_mini all"
+    "chrome >= 93",
+    "edge >= 93",
+    "firefox >= 92",
+    "safari >= 15.4",
+    "opera >= 79"
   ],
   "scripts": {
     "dev": "next dev",
