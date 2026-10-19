@@ -17,15 +17,15 @@ const skillCategories = [
   },
   {
     title: "State, APIs & Architecture",
-    skills: ["Redux", "Redux Toolkit", "React Query", "Zustand", "GraphQL", "REST APIs", "Node.js", "Service Workers", "Frontend Architecture"],
+    skills: ["Redux", "Redux Toolkit", "React Query", "GraphQL", "REST APIs", "Node.js", "Service Workers", "Frontend Architecture"],
   },
   {
     title: "Performance & Quality",
-    skills: ["Core Web Vitals", "LCP Optimization", "Code Splitting", "Lazy Loading", "Sentry", "Jest", "Playwright"],
+    skills: ["Core Web Vitals", "LCP Optimization", "Code Splitting", "Lazy Loading", "Sentry", "Jest"],
   },
   {
     title: "Development Tools",
-    skills: ["Git", "Xcode", "Firebase", "Docker", "Storybook"],
+    skills: ["Git", "Xcode", "Firebase"],
   },
 ]
 
