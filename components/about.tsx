@@ -7,19 +7,18 @@ export function About() {
         </h2>
         <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
           <p>
-            I&apos;m a Senior Software Engineer with over 8 years of experience building scalable web and mobile
-            applications. Currently serving as AVP at Knight Fintech, I lead technology integration and platform
-            consolidation initiatives following strategic acquisitions.
+            I&apos;m a hands-on frontend engineering leader with over 9 years of experience building scalable web
+            and mobile products. I currently work as Manager Engineering at AuxoAI, building React-based finance
+            dashboards for Western Digital.
           </p>
           <p>
             My expertise lies in architecting and developing fintech solutions using modern technologies like Next.js,
             React, React Native, and GraphQL. I have a proven track record of scaling products from single-partner
-            implementations to multi-lender platforms handling ₹1000+ crore loan books.
+            implementations to multi-lender platforms handling a ₹1,000 crore loan book.
           </p>
           <p>
             I&apos;m passionate about performance optimization, developer experience, and building configuration-driven
-            architectures that reduce integration time from weeks to days. I thrive in leadership roles where I can
-            mentor teams while staying hands-on with code.
+            architectures that reduce integration time from weeks to days. I enjoy mentoring engineers while staying close to architecture, code quality, and delivery.
           </p>
         </div>
       </div>
