@@ -18,17 +18,15 @@ export function Hero() {
                 Kranthi Kumar Julakanti
               </h1>
               <p className="text-xl sm:text-2xl text-muted-foreground">
-                Senior Software Engineer
+                Senior Frontend Engineer
               </p>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              I build scalable, high-performance web and mobile applications
-              using Next.js, React, React Native and Graphql with a track record
-              of improving performance, accelerating feature delivery, and
-              enabling seamless user experiences.
-              <br />
-              Let's collaborate and create something awesome together!
+              I build scalable fintech and enterprise experiences with React, Next.js,
+              TypeScript, and GraphQL. Over 9 years of hands-on engineering,
+              I&apos;ve led digital lending products, improved LCP by 19%, and
+              helped scale a platform supporting a ₹1,000 crore loan book.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -114,7 +112,7 @@ export function Hero() {
                   <div>
                     <span className="text-accent">role:</span>{" "}
                     <span className="text-foreground">
-                      &quot;AVP-Engineering&quot;
+                      &quot;Manager Engineering · Frontend&quot;
                     </span>
                     ,
                   </div>
@@ -131,7 +129,7 @@ export function Hero() {
                   <div>
                     <span className="text-accent">experience:</span>{" "}
                     <span className="text-foreground">
-                      &quot;8+ years&quot;
+                      &quot;9+ years&quot;
                     </span>
                     ,
                   </div>
