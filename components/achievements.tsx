@@ -1,7 +1,27 @@
 import { Card } from "@/components/ui/card"
-import { Award, Star } from "lucide-react"
+import { Award, Star, TrendingUp, Gauge, Users, Zap } from "lucide-react"
 
 const achievements = [
+  {
+    icon: TrendingUp,
+    title: "₹1,000 crore loan book",
+    description: "Contributed to a digital lending platform that supported a ₹1,000 crore loan book in two years.",
+  },
+  {
+    icon: Gauge,
+    title: "19% faster LCP",
+    description: "Improved Largest Contentful Paint by 19% and reduced bundle size by 450 KB.",
+  },
+  {
+    icon: Users,
+    title: "7 lenders · 16 partners",
+    description: "Helped scale the lending platform while reducing partner onboarding from one week to one day.",
+  },
+  {
+    icon: Zap,
+    title: "₹5 crore credit-line activation",
+    description: "Delivered the frontend for a credit-line product in one month, supporting ₹5 crore in first-month activations.",
+  },
   {
     icon: Award,
     title: "Bug Bounty Recognition",
