@@ -8,10 +8,9 @@ const _inter = Inter({ subsets: ["latin"] });
 const _jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kranthi Kumar Julakanti - Senior Software Engineer",
+  title: "Kranthi Kumar Julakanti - Senior Frontend Engineer",
   description:
-    "Portfolio of Kranthi Kumar Julakanti - Senior Software Engineer specializing in Next.js, React, and React Native with 8+ years of experience in fintech and mobile app development",
-  generator: "v0.app",
+    "Portfolio of Kranthi Kumar Julakanti - Senior Frontend Engineer specializing in Next.js, React, and React Native with 9+ years of experience in fintech and mobile app development",
   keywords: [
     "Next.js",
     "React",
@@ -21,6 +20,8 @@ export const metadata: Metadata = {
     "Frontend Engineer",
     "Senior Frontend Engineer",
     "Fintech",
+    "Digital Lending",
+    "Frontend Architecture",
   ],
   authors: [{ name: "Kranthi Kumar Julakanti" }],
   icons: {
@@ -29,9 +30,9 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "Kranthi Kumar Julakanti - Senior Software Engineer",
+    title: "Kranthi Kumar Julakanti - Senior Frontend Engineer",
     description:
-      "Senior Software Engineer specializing in Next.js, React, and React Native",
+      "Senior Frontend Engineer specializing in Next.js, React, and React Native",
     type: "website",
   },
 };

@@ -6,25 +6,36 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
+    title: "Manager Engineering",
+    company: "AuxoAI",
+    period: "January 2026 - Present",
+    description: [
+      "Leading frontend development of enterprise finance dashboards for Western Digital using React.js",
+      "Improving application performance through lazy loading, memoization, and code splitting",
+    ],
+    tags: ["React", "Enterprise Dashboards", "Performance"],
+  },
+  {
     title: "AVP",
     company: "Knight Fintech",
-    period: "June 2025 - Present",
+    period: "June 2025 - October 2025",
     description: [
-      "Leading due diligence, technology integration, and platform consolidation post-acquisition",
-      "Driving architectural alignment between Knight Fintech and Niro systems by consolidating microservices, standardizing APIs, and unifying infrastructure",
+      "Contributed to technical due diligence and integration planning for the proposed acquisition of Niro Money",
+      "Evaluated architectural alignment, API standardization, and integration opportunities across the two platforms",
     ],
     tags: ["Leadership", "Architecture", "Integration"],
   },
   {
-    title: "SDE-2 / SDE-3",
+    title: "SDE-3",
     company: "Niro Money (QFI Technologies)",
     period: "November 2021 - June 2025",
     description: [
       "Designed and led a team of 4 developers to build a Personal Loans platform, including a Next.js web app, React Native mobile app, and GraphQL microservices",
-      "Scaled web app journey from 1 partner and 1 lender to 7 lenders and 16 partners, achieving a ₹1000 crore loan book in 2 years",
+      "Scaled the lending platform to 7 lenders and 16 partners, contributing to a ₹1,000 crore loan book within two years",
       "Developed configuration-driven theme structure, reducing partner integration time from one week to one day",
       "Achieved 19% improvement in LCP and reduced bundle size by 450KB through optimization techniques",
-      "Developed comprehensive credit line product front-end within one month, activating ₹5 crore in credit lines",
+      "Delivered the frontend of a credit-line product in one month, supporting ₹5 crore in credit-line activations in its first month",
+      "Introduced service-worker caching for back-office applications to reduce repeated API requests",
     ],
     tags: ["Next.js", "React Native", "GraphQL", "TypeScript", "Performance"],
   },

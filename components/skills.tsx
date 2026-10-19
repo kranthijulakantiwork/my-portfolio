@@ -2,24 +2,30 @@ import { Card } from "@/components/ui/card"
 
 const skillCategories = [
   {
-    title: "Core Technologies",
+    title: "Frontend & Mobile",
     skills: [
       "Next.js",
       "React",
       "React Native",
       "JavaScript",
       "TypeScript",
-      "GraphQL",
       "HTML",
       "CSS",
-      "Redux",
-      "Git",
-      "Xcode",
+      "Tailwind CSS",
+      "MUI",
     ],
   },
   {
-    title: "Additional Skills",
-    skills: ["Python", "Pandas", "NumPy", "OpenCV", "Tesseract-OCR"],
+    title: "State, APIs & Architecture",
+    skills: ["Redux", "Redux Toolkit", "React Query", "GraphQL", "REST APIs", "Node.js", "Service Workers", "Frontend Architecture"],
+  },
+  {
+    title: "Performance & Quality",
+    skills: ["Core Web Vitals", "LCP Optimization", "Code Splitting", "Lazy Loading", "Sentry", "Jest"],
+  },
+  {
+    title: "Development Tools",
+    skills: ["Git", "Xcode", "Firebase"],
   },
 ]
 
@@ -28,7 +34,7 @@ export function Skills() {
     <section id="skills" className="py-24 px-4 sm:px-6 lg:px-8 bg-muted/30" aria-labelledby="skills-heading">
       <div className="container mx-auto max-w-5xl">
         <h2 id="skills-heading" className="text-3xl sm:text-4xl font-bold mb-12 text-balance">
-          Things that I have worked on
+          Technologies I work with
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {skillCategories.map((category) => (
